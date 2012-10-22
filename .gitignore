@@ -1,2 +1,2 @@
-application/cache/*
-application/logs/*
+vendor/Swift-*/tests
+vendor/Swift-*/test-suite
