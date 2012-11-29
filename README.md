@@ -10,18 +10,20 @@ In order to initiate SwiftMailer in your application you have 2 options:
 1. Autoload it when during your app's boot-time by adding `SwiftMailer.php` to
 your config foler with following option:
 
-    return array
-    (
-        // Auto-load module?
-        'autoload'  => TRUE,
-    );
+```php
+return array
+(
+    // Auto-load module?
+    'autoload'  => TRUE,
+);
+```
 
 2. Load it dynamically whenever you need it by running the Helper code:
 
-    SwiftMailer::init();
-
+```php
+SwiftMailer::init();
+```
 
 ### Notes
 
-This module has been tested on Kohana 3.2.0 but should work well with the
-upcoming 3.3.0 release.
+This module has been tested against Kohana 3.3.0.
