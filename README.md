@@ -23,5 +23,5 @@ your config foler with following option:
 
 ### Notes
 
-This module has been tested on Kohana 3.2.0 but should work well with the
-upcoming 3.3.0 release.
+This module has been tested on Kohana 3.2.0. For version compatible with Kohana
+3.3.x, please look at 3.3/master branch.
