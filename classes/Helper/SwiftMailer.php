@@ -11,6 +11,6 @@ class Helper_SwiftMailer
 {
     public static function init()
     {
-        require Kohana::find_file('vendor', 'Swift-4.2.1/lib/swift_required', 'php');
+        require Kohana::find_file('vendor', 'Swift-4.2.2/lib/swift_required', EXT);
     }
 }
