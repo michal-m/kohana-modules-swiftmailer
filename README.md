@@ -3,6 +3,11 @@ Kohana SwiftMailer Module
 
 A simple SwiftMailer wrapper module for Kohana
 
+### SwiftMailer version
+
+This module includes SwiftMailer version **4.3.0**.
+
+
 ### How to use it?
 
 In order to initiate SwiftMailer in your application you have 2 options:
